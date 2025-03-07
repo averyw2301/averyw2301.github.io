@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Root Variables */
+        :root {
+            --black: #333;
+            --white: #ffffff;
+            --cream: #f9f9f9;
+            --green: #2c6e49;
+            --dark-green: #1e4d2b;
+            --gray: #777;
+        }
+
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, var(--white) 20%, var(--green) 80%);
+            color: var(--black);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        
+        header {
+            background-color: var(--dark-green);
+            color: var(--white);
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-weight: 600;
+            font-size: 28px;
+        }
+
+        
+        .content-box {
+            background-color: var(--cream);
+            width: 90%;
+            max-width: 900px;
+            padding: 30px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h2, h3, h4, h5 {
+            color: var(--dark-green);
+            border-bottom: 2px solid var(--green);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.7;
+            color: var(--gray);
+        }
+
+        .team-member {
+            background: var(--white);
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .team-member strong {
+            color: var(--dark-green);
+        }
+
+        .faq {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .faq li {
+            background: var(--white);
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        }
+
+        
+        footer {
+            text-align: center;
+            padding: 10px;
+            color: var(--white);
+            background: var(--dark-green);
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>About Us</h1>
+</header>
+
+<div class="content-box">
+    <section class="mission-section">
+        <h2>Our Mission</h2>
+        <p>At Players Club Management, we are dedicated to empowering student-athletes by maximizing their Name, Image, and Likeness (NIL) opportunities. Our mission is to help athletes build their personal brands, secure meaningful partnerships, and create long-term financial success.</p>
+    </section>
+
+    <section class="story-section">
+        <h3>Our Story</h3>
+        <p><b>Players Club Management was founded with a passion for sports and a vision to help athletes navigate the evolving NIL landscape. Our goal is to ensure that student-athletes are fairly compensated and educated on financial literacy, branding, and career planning.</b></p>
+    </section>
+
+    <section class="team-section">
+        <h4>Our Team</h4>
+        <div class="team-member">
+            <strong>Santiago Zuniga</strong> - Founder & CEO <br>
+            Leads Players Club Management with expertise and dedication.
+        </div>
+        <div class="team-member">
+            <strong>David Zuniga</strong> - Business Development Director <br>
+            Focuses on strategic collaborations between athletes and brands.
+        </div>
+        <div class="team-member">
+            <strong>Santana Zuniga</strong> - Marketing & Branding Specialist <br>
+            Helps student-athletes build compelling personal brands.
+        </div>
+    </section>
+
+    <section class="Connect-section">
+        <h5>Connect With Us</h5>
+        <ul class="faq">
+            <li><strong>What services do you offer?</strong> NIL deal negotiation, brand partnerships, marketing strategy, and financial literacy education.</li>
+            <li><strong>Who can sign with you?</strong> High school and college athletes across various sports.</li>
+            <li><strong>How does payment work?</strong> We have a free tier and a 20% commission-based model.</li>
+            <li><strong>Do you offer legal support?</strong> Yes, we ensure NIL contracts comply with NCAA and state regulations.</li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    &copy; 2025 Players Club Management. All Rights Reserved.
+</footer>
+
+</body>
+</html>
